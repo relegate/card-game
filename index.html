@@ -33,19 +33,19 @@
         .cards.red-cards,
         .cards.yellow-cards,
         .cards.green-cards {
-            grid-template-columns: repeat(2, 100px);
+            grid-template-columns: repeat(2, 50px);
         }
         .cards.black-cards {
-            grid-template-columns: repeat(4, 100px);
+            grid-template-columns: repeat(4, 50px);
         }
         .card {
-            width: 100px;
-            height: 150px;
+            width: 50px;
+            height: 75px;
             display: flex;
             justify-content: center;
             align-items: center;
             color: white;
-            font-size: 24px;
+            font-size: 12px;
             cursor: pointer;
             border-radius: 8px;
             transition: background-color 0.3s;
@@ -67,8 +67,8 @@
             color: black;
         }
         .card.black {
-            background-color: #000000;
-            color: rgb(255, 255, 255);
+            background-color: #a9a9a9;
+            color: black;
         }
         .card.used {
             background-color: #9e9e9e;
