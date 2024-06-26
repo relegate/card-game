@@ -33,14 +33,14 @@
         .cards.red-cards,
         .cards.yellow-cards,
         .cards.green-cards {
-            grid-template-columns: repeat(2, 50px);
+            grid-template-columns: repeat(2, 45px);
         }
         .cards.black-cards {
-            grid-template-columns: repeat(4, 50px);
+            grid-template-columns: repeat(4, 45px);
         }
         .card {
-            width: 50px;
-            height: 75px;
+            width: 45px;
+            height: 45px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -67,8 +67,8 @@
             color: black;
         }
         .card.black {
-            background-color: #a9a9a9;
-            color: black;
+            background-color: #000000;
+            color: rgb(255, 255, 255);
         }
         .card.used {
             background-color: #9e9e9e;
@@ -78,23 +78,18 @@
 <body>
 
 <div class="column">
-    <div class="column-title">Blue</div>
     <div class="cards blue-cards"></div>
 </div>
 <div class="column">
-    <div class="column-title">Red</div>
     <div class="cards red-cards"></div>
 </div>
 <div class="column">
-    <div class="column-title">Yellow</div>
     <div class="cards yellow-cards"></div>
 </div>
 <div class="column">
-    <div class="column-title">Green</div>
     <div class="cards green-cards"></div>
 </div>
 <div class="column">
-    <div class="column-title">Black</div>
     <div class="cards black-cards"></div>
 </div>
 
